@@ -1,0 +1,27 @@
+{
+  "name": "simple-countries-list",
+  "version": "1.0.0",
+  "description": "Simple package for getting all world countries and their short names.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/Kolosafo/all_countries",
+  "repository": {
+    "url": "https://github.com/Kolosafo/all_countries"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "countries",
+    "simple-countries-list",
+    "countries-list",
+    "all-countries"
+  ],
+  "author": "Kolosafo",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
